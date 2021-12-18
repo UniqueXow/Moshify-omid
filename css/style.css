@@ -136,6 +136,9 @@ a {
 .icon--primary {
   fill: var(--color-primary);
 }
+.icon--sec {
+  fill: var(--color-sec);
+}
 .icon-container {
   background: #f3f9fa;
   width: 64px;
@@ -304,4 +307,17 @@ a {
   .plan__description {
     font-size: 1.7rem;
   }
+}
+/*media*/
+.media {
+  display: flex;
+}
+.media__title {
+  margin-top: 0;
+}
+.media__body {
+  margin: 0 2rem;
+}
+.media__img {
+  margin-top: 1rem;
 }
