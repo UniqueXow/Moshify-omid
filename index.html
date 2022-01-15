@@ -15,74 +15,50 @@
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2 class="showcase__header">User-Friendly Control Panel</h2>
+        <h2>What our Customers Saying</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore,
+          veritatis?
+        </p>
+        <div class="container">
+          <div class="card testimonial">
+            <div class="grid grid--1-2">
+              <div class="testimonial__img">
+                <img src="img/testimonial.jpg" alt="a happy smiling customer" />
+                <span class="icon-container icon-container--accent">
+                  <svg class="icon--small icon--white">
+                    <use xlink:href="img/sprite.svg#quotes"></use>
+                  </svg>
+                </span>
+              </div>
+              <blockquote class="quote">
+                <p class="quote__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Laudantium facilis neque dignissimos nihil nostrum incidunt
+                  unde assumenda distinctio harum provident!
+                </p>
+                <footer>
+                  <div class="media">
+                    <div class="media__img">
+                      <svg class="icon icon--sec quote__line">
+                        <use xlink:href="img/sprite.svg#line"></use>
+                      </svg>
+                    </div>
+                    <div class="media__body">
+                      <h3 class="media__title quote__author">
+                        Omid Mashayekhi
+                      </h3>
+                      <p class="quote__company">UniqueXow company ceo</p>
+                    </div>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
       </header>
-      <div class="grid grid--1-2">
-        <div>
-          <picture class="block-showcase__img">
-            <source type="image/webp" srcset="img/ipad.webp 1x,img/ipad@2x.webp 2x"/>
-            <source type="image/jpg" srcset="img/ipad.jpg 1x,img/ipad@2x.jpg 2x"/>
-            <img src="img/ipad@2x.jpg" alt="">
-          </picture>
-        </div>
-        <ul class="list">
-          <div>
-            <li>
-              <div class="media">
-                <div class="media__img">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="img/sprite.svg#snap"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title showcase__header">Easy start & managed update</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui voluptate
-                    error voluptas quisquam repellat voluptatem, odit mollitia asperiores
-                    soluta inventore?
-                  </p>
-                </div>
-            </div>
-            </li>
-            <li>
-              <div class="media">
-                <div class="media__img">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="img/sprite.svg#snap"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title showcase__header">Staging, Git & WP-CLI</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui voluptate
-                    error voluptas quisquam repellat voluptatem, odit mollitia asperiores
-                    soluta inventore?
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="media">
-                <div class="media__img">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="img/sprite.svg#wordpress"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title showcase__header">Dynamic Caching & More</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui voluptate
-                    error voluptas quisquam repellat voluptatem, odit mollitia asperiores
-                    soluta inventore?
-                  </p>
-                </div>
-              </div>
-            </li>
-            </div>
-        </ul>
-        </div>
     </section>
     <script src="js/main.js"></script>
   </body>
